@@ -1,0 +1,29 @@
+count of total verifications done : 2069
+count of mismatched verifies 174
+
+
+Of the 2069 verify tasks attempted accross all languages 1683 tasks have been verified with " Audio is fine" i.e. good quality.
+
+Following is the detailed analysis :
+
+Audio is fine   	:	1683
+Noisy   		:	91
+Not Audible   		:	0
+Robotic/Artificial	:       5
+Incomplete audio   		323
+Text and audio do not match :   64
+Speaker unclear   	    :	51
+
+
+LANGUAGE\COMMENT Audio is fine  Noisy   Robotic  Incomplete audio  Text and speech do not match Speaker unclear
+
+  Marathi        10             2       3        320               2                            2
+  Telugu         57             3       2        0                 4                            1
+  Tamil          4              1       1        1                 1                            2
+  Hindi          1612           85      3        320               57                           46
+
+A total of 3048 conversion tasks have been attempted in total (the speech length analysis of which I sent)
+Out of these 63 have been converted with " Too many difficult words in text" comment and 45 with "Text is too long" . The rest 2940 have been converted with "Text is fine" comment
+
+
+
