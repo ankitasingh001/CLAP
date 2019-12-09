@@ -8,7 +8,7 @@ Created on Mon Dec  9 09:45:21 2019
 """
 To run this script periodically (for example every minute)
 Type 'crontab -e' on linux terminal
-Edit the file and add th follwoing : 
+Edit the file and add the following : 
 * * * * * python3 /home/chikki/CLAPtest/SendEmail.py
 
 The second part is the location of the SendEmail.py file
