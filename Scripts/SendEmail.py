@@ -22,12 +22,12 @@ import urllib
 import os
 
 
-fromaddr = 'ankitasingh950910@gmail.com'  
-toaddrs  = 'ankitasingh950910@gmail.com'  
+fromaddr = 'Email id of sender'  
+toaddrs  = 'Email id of the reciever'  
 msg = 'CLAP server is down'  
 
-username = 'ankitasingh950910'  
-password = 'QNMQ7S85'
+username = '---Your Gmail id---'  
+password = '---Your Gmail password---'
 
 #Send email via gmail smtp
 def sendEmail():
