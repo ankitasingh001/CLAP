@@ -50,5 +50,6 @@ def check_connection(url):
 
 url = "10.129.1.153" #Server where clap is running
 #Sends email in case the server is down
+#Note : The machine needs to be in the IITB network for this to work
 if(check_connection(url)):
     sendEmail()
