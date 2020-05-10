@@ -1,0 +1,37 @@
+,,
+,USERS REGISTERED = 1681,
+,,
+,SPEAK TASKS,
+,,
+,Language,Tasks Completed
+,,
+,Tamil,2223
+,Telugu,1896
+,Marathi,2935
+,Hindi,5133
+,TOTAL,12187
+,,
+,,
+,AUDIO LENGTH RECORDED,
+,,
+,Language,Audio Length(in secs)
+,,
+,Tamil,14972.9320009
+,Telugu,11733.394668
+,Marathi,17556.43466
+,Hindi,33784.168643
+,TOTAL,78046.9299719
+,,
+,,
+,FEEDBACK STATS,
+,,
+,Feedback comment,Number of comments
+,,
+,Audio is fine,15931
+,Background is noise,6
+,Inaudible,0
+,Voice is robotic/artificial,474
+,Incomplete audio,410
+,Text and audio do not match,1409
+,speaker 's voice is unclear,5
+,TOTAL,16411
