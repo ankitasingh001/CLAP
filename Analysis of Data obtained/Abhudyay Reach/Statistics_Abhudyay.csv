@@ -1,37 +1,53 @@
-,,
-,USERS REGISTERED = 1681,
-,,
-,SPEAK TASKS,
-,,
-,Language,Tasks Completed
-,,
-,Tamil,2223
-,Telugu,1896
-,Marathi,2935
-,Hindi,5133
-,TOTAL,12187
-,,
-,,
-,AUDIO LENGTH RECORDED,
-,,
-,Language,Audio Length(in secs)
-,,
-,Tamil,14972.9320009
-,Telugu,11733.394668
-,Marathi,17556.43466
-,Hindi,33784.168643
-,TOTAL,78046.9299719
-,,
-,,
-,FEEDBACK STATS,
-,,
-,Feedback comment,Number of comments
-,,
-,Audio is fine,15931
-,Background is noise,6
-,Inaudible,0
-,Voice is robotic/artificial,474
-,Incomplete audio,410
-,Text and audio do not match,1409
-,speaker 's voice is unclear,5
-,TOTAL,16411
+,,,,,,,,
+,USERS REGISTERED = 1681,,,,,,,
+,,,,,,,,
+,SPEAK TASKS,,,,,,,
+,,,,,,,,
+,Language,Tasks Completed,,,,,,
+,,,,,,,,
+,Tamil,2223,,,,,,
+,Telugu,1896,,,,,,
+,Marathi,2935,,,,,,
+,Hindi,5133,,,,,,
+,TOTAL,12187,,,,,,
+,,,,,,,,
+,,,,,,,,
+,AUDIO LENGTH RECORDED,,,,,,,
+,,,,,,,,
+,Language,Audio Length(in secs),,,,,,
+,,,,,,,,
+,Tamil,14972.9320009,,,,,,
+,Telugu,11733.394668,,,,,,
+,Marathi,17556.43466,,,,,,
+,Hindi,33784.168643,,,,,,
+,TOTAL,78046.9299719,,,,,,
+,,,,,,,,
+,,,,,,,,
+,FEEDBACK STATS,(SINGLE COMMENT),,,,,,
+,,,,,,,,
+,Feedback comment,Number of comments,,,,,,
+,,,,,,,,
+,Audio is fine,15931,,,,,,
+,Background is noise,6,,,,,,
+,Inaudible,0,,,,,,
+,Voice is robotic/artificial,474,,,,,,
+,Incomplete audio,410,,,,,,
+,Text and audio do not match,1409,,,,,,
+,speaker 's voice is unclear,5,,,,,,
+,TOTAL,16411,,,,,,
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,FEEDBACK STATS,(MULTIPLE COMMENT),,,HINDI,TAMIL,TELUGU,MARATHI
+,,,,,,,,
+,Audio is fine,19901,,,8568,3417,2583,5333
+,Background is noisy,4257,,,1538,889,668,1162
+,Inaudible,843,,,364,180,80,219
+,Voice is robotic/artificial,733,,,316,112,70,235
+,Incomplete audio,485,,,223,88,81,93
+,Text and audio do not match,1704,,,640,433,182,449
+,speaker 's voice is unclear,1782,,,697,364,174,547
+,,,,,,,,
+,,,,,,,,
+,,,,,,,,
+,MISMATCHED VERIFIES,2820,(in terms of audio tasks),,,,,
