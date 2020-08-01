@@ -1209,16 +1209,19 @@ body.landing #header {
 /* images */
 
 img {
-    max-width: 30%;
-    height: auto;
+    /* object-fit: scale-down;
+    max-height: 20%;
+	max-width: 80%; */
+    max-width: 720px;
+    max-height: 460px;
 }
 
 .image-1 {
     filter: invert(100%);
-    -webkit-filter: invert(100%);
+    -webkit-filter: invert(70%);
 }
 
 .image-2 {
     filter: invert(100%);
-    -webkit-filter: invert(100%);
+    -webkit-filter: invert(70%);
 }
