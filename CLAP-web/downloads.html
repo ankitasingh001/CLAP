@@ -21,6 +21,7 @@
 			<link rel="stylesheet" href="css/skel.css" />
 			<link rel="stylesheet" href="css/style.css" />
 			<link rel="stylesheet" href="css/style-xlarge.css" />
+			<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Special+Elite" />
 		</noscript>
 		<!--[if lte IE 8]><link rel="stylesheet" href="css/ie/v8.css" /><![endif]-->
 	</head>
@@ -39,21 +40,30 @@
 				</nav>
 			</header>
 
-		<!-- Main -->
+		<!-- Main 
 		<section id="two" class="wrapper style1 align-center">
 				<div class="container">
 					<header>
 						<h2>CLAP Speech Corpus (Indian Languages)</h2>
 						<h2>Available Languages : Hindi, Marathi, Tamil ,Telugu</h2>
 					</header>
-			</section>
+			</section> -->
+
+		<section id="two" class="wrapper style3 align-center">
+				<div class="container">
+				<header>
+				<h2 >CLAP Speech Corpus (Indian Languages)</h2>
+				<h3>CLAP is a multilingual Indian-language labelled speech corpus, crowd sourced and verified by thousands of users all over India. The text prompts were all extracted from copyright-free sources. (There were a couple of exceptions, where permissions were explicitly sought from the content creators.)</h3>
+				
+					</header>
+			</section> 
 
 		<section id="one" class="wrapper style2 align-center">
 
 				<div class="container">
 							
 							<div class="row">
-								<div class="6u 12u(small)">
+							<!--	<div class="6u 12u(small)">
 
 									<h3 align="left">Overall Statistics</h3>
 									<ul>
@@ -138,21 +148,65 @@
 									</table>
 									<h3>Sound files</h3>
 									Contains all the sound files with nomenclature as given in AudioFileName 
-									</div>
+									</div> 
 
-								</div>
-								<div class="6u 12u(small)">
+								</div> -->
+								<div class="6u 12u(small)" >
 
 								<!--Size dropdown menu-->
 								
 								<h3 align="left">Select Language </h3>
 								<select id="language_select">
+								<option value="option0"><b>All</b></option>
 								<option value="option1"><b>Hindi</b></option>
 								<option value="option2"><b>Marathi</b></option>
 								<option value="option3"><b>Tamil</b></option>
 								<option value="option4"><b>Telugu</b></option>
 								</select>
+								
+								<svg aria-hidden="true" class="stUf5b MSBt4d" style = "float:right ; margin-top:-35px ; margin-right:5px" fill="currentColor" focusable="false" width="24px" height="24px" viewBox="0 0 24 24" xmlns="https://www.w3.org/2000/svg"><polygon points="12,16.41 5.29,9.71 6.71,8.29 12,13.59 17.29,8.29 18.71,9.71"></polygon></svg>
+
+								
 								<p></p>
+							
+								<div id="option0" class="size_chart">
+								<table>
+
+									<tbody>
+										<tr>											
+											<td><b>Total size (in GB)</b></td>
+											<td>100.54</td>
+											
+										</tr>
+										<tr>
+											
+											<td><b>Total hours recorded</b></td>
+											<td>80.82</td>
+										</tr>
+										<tr>
+											
+											<td><b> Validated hours</b></td>
+											<td>34.83</td>
+										</tr>
+										<tr>
+											
+											<td><b>Total no. of speakers</b></td>
+											<td>123</td>
+										</tr>
+										<tr>
+											
+											<td><b>Download sample ( <50 MB ) </b></td>
+											<td align="center">
+											<a href="Downloads/Samples/all.tar.gz"  download>all.tar.gz</a></td>
+										</tr>
+										<tr>
+											
+											<td> <b>Download All </b></td>
+											<td>link</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
 								<div id="option1" class="size_chart">
 								<table>
 
@@ -174,8 +228,8 @@
 										</tr>
 										<tr>
 											
-											<td><b>Audio Format</b></td>
-											<td>.wav</td>
+											<td><b>Total no. of speakers</b></td>
+											<td>63</td>
 										</tr>
 										<tr>
 											
@@ -212,8 +266,8 @@
 										</tr>
 										<tr>
 											
-											<td><b>Audio Format</b></td>
-											<td>.wav</td>
+											<td><b>Total no. of speakers</b></td>
+											<td>42</td>
 										</tr>
 										<tr>
 											
@@ -251,8 +305,8 @@
 										</tr>
 										<tr>
 											
-											<td><b>Audio Format</b></td>
-											<td>.wav</td>
+											<td><b>Total no. of speakers</b></td>
+											<td>33</td>
 										</tr>
 										<tr>
 											<td><b>Download sample ( <50 MB ) </b></td>
@@ -290,8 +344,8 @@
 										</tr>
 										<tr>
 											
-											<td><b>Audio Format</b></td>
-											<td>.wav</td>
+											<td><b>Total no. of speakers</b></td>
+											<td>47</td>
 										</tr>
 										<tr>
 											
@@ -310,12 +364,55 @@
 
 
 								</div>
+							<div class="6u 12u(small)" >
+
+								<!--Size dropdown menu-->
+								
+								<h3 align="left"> Sample Text Prompts  </h3>
+									<table>
+
+									<tbody>
+										<tr>
+    									<th>Language</th>
+    									<th>Text</th>
+ 										 </tr>
+										  <p></p>
+										<tr>
+														
+											<td><b>Hindi</b></td>
+											<td>वह मुंबई में पैदा हुए थे</td>
+											
+										</tr>
+										<tr>
+											
+											<td><b>Marathi</b></td>
+											<td>येथे भारतीय नौदलाचा तळ आहे.</td>
+										</tr>
+										<tr>
+											
+											<td><b>Tamil</b></td>
+											<td>இது முல்லை ஆற்றங்கரையில் அமைந்துள்ளது</td>
+										</tr>
+										<tr>
+											
+											<td><b>Telugu</b></td>
+											<td>రామకృష్ణయ్య అయోమయ నివృత్తి పేజీ.</td>
+										</tr>
+
+									</tfoot>
+								</table>
+								<ul>
+										<a href="Downloads/Samples/README.txt" download class="button"> Get Meta-Data </a>
+									</ul>
+
+								</div>
+								
+
+							</div>
 							</div>
 
-	
-								</div>
-							</div>
-											</div>
+						
+						</div>
 			</section>
 						
 		<!-- Footer -->

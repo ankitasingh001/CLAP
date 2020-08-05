@@ -4,7 +4,7 @@ $(document).ready(function() {
     $(".size_chart").hide();
 
     //unhides first option content
-    $("#option1").show();
+    $("#option0").show();
 
     //listen to dropdown for change
     $("#language_select").change(function() {
