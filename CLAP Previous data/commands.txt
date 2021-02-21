@@ -267,3 +267,10 @@ tools:node="replace"
 >  <meta-data android:name="com.google.android.gms.version"
       android:value="@integer/google_play_services_version" />
 
+
+
+If you are using google sign in on a new app, make sure you add the SHA -1 key of both your local debug and playstore release to your firebase "speechtotext" project otherwise it will not work
+
+
+Install a specific version of python :
+https://dev.to/serhatteker/how-to-upgrade-to-python-3-7-on-ubuntu-18-04-18-10-5hab
